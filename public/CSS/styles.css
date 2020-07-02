@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+    background-color: #3CAEA3;
+    border-radius: 25px;
+    text-align: center;
+    color:rgb(17, 121, 112);
+    margin-top: 25px;
+    line-height: 10vh;
+    background-image: url("/Images/cloudimage.png");
+    background-position-y: center;
+    background-size: 30vh;
+  
+}
+
+#content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#restaurants{
+    background-image: linear-gradient(#3CAEA3,#20639B);
+    color:#F6D55C; 
+    margin-right:10px;
+    width: 35vw;
+    height: 50vh;
+}
+
+a{
+    color: #3CAEA3;
+    font-size: large;
+}
+
+#myMap{
+    margin-left: 10px;
+
+}
+

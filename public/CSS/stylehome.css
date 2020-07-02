@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding:0;
+    
+}
+
+#header{
+    background-color: #3CAEA3;
+    border-radius: 25px;
+    text-align: center;
+    color:rgb(17, 121, 112);
+    margin-top: 25px;
+    line-height: 10vh;
+    background-image: url("/Images/cloudimage.png");
+    background-position-y: center;
+    background-size: 30vh;
+  
+}
+
+a{
+    color: #3CAEA3;
+    font-size: large;
+    text-decoration: None;
+}
+
+a:hover{
+    color: rgb(147, 235, 226)
+}
+
+#content{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#sideBar{
+    width: 35vw;
+    height: 50vh;
+    overflow: scroll
+}
+
+#myMap{
+    height: 50vh; 
+    width:60vw;
+}
+
+/* ::/webkit/scrollbar/button */
+
+
