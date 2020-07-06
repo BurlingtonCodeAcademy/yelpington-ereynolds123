@@ -1,0 +1,60 @@
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(109, 101, 101);
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  background: black;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: gold;
+}
+
+#header h1 {
+  background: black;
+  color: gold;
+  font-family: "Notable", sans-serif;
+}
+
+a {
+  color: gold;
+  font-size: x-large;
+  text-decoration: None;
+}
+
+a:hover {
+  color: lightyellow;
+}
+
+#content {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#sideBar {
+    padding-right: 10px;
+  width: 35vw;
+  height: 50vh;
+  overflow: scroll;
+  background-color: black;
+}
+
+#myMap {
+  padding-left: 10px;
+  height: 50vh;
+  width: 60vw;
+}
+
+/* ::/webkit/scrollbar/button */
+
+.contentfor {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
