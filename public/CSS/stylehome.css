@@ -1,50 +1,60 @@
-body{
-    margin: 0;
-    padding:0;
-    
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(109, 101, 101);
+  font-family: "Roboto", sans-serif;
 }
 
-#header{
-    background-color: #3CAEA3;
-    border-radius: 25px;
-    text-align: center;
-    color:rgb(17, 121, 112);
-    margin-top: 25px;
-    line-height: 10vh;
-    background-image: url("/Images/cloudimage.png");
-    background-position-y: center;
-    background-size: 30vh;
-  
+#header {
+  background: black;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: gold;
 }
 
-a{
-    color: #3CAEA3;
-    font-size: large;
-    text-decoration: None;
+#header h1 {
+  background: black;
+  color: gold;
+  font-family: "Notable", sans-serif;
 }
 
-a:hover{
-    color: rgb(147, 235, 226)
+a {
+  color: gold;
+  font-size: x-large;
+  text-decoration: None;
 }
 
-#content{
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
+a:hover {
+  color: lightyellow;
 }
 
-#sideBar{
-    width: 35vw;
-    height: 50vh;
-    overflow: scroll
+#content {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
-#myMap{
-    height: 50vh; 
-    width:60vw;
+#sideBar {
+    padding-right: 10px;
+  width: 35vw;
+  height: 50vh;
+  overflow: scroll;
+  background-color: black;
+}
+
+#myMap {
+  padding-left: 10px;
+  height: 50vh;
+  width: 60vw;
 }
 
 /* ::/webkit/scrollbar/button */
 
-
+.contentfor {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
